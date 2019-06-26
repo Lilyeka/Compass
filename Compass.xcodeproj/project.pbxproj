@@ -12,6 +12,7 @@
 		61084B2522C34EC800D66E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61084B2322C34EC800D66E53 /* Main.storyboard */; };
 		61084B2722C34ECD00D66E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61084B2622C34ECD00D66E53 /* Assets.xcassets */; };
 		61084B2A22C34ECD00D66E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61084B2822C34ECD00D66E53 /* LaunchScreen.storyboard */; };
+		61084B3222C34EFF00D66E53 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61084B3122C34EFF00D66E53 /* CompassView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		61084B2622C34ECD00D66E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61084B2922C34ECD00D66E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61084B2B22C34ECD00D66E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61084B3122C34EFF00D66E53 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		61084B1322C34EC700D66E53 = {
 			isa = PBXGroup;
 			children = (
+				61084B3122C34EFF00D66E53 /* CompassView.swift */,
 				61084B1E22C34EC700D66E53 /* Compass */,
 				61084B1D22C34EC700D66E53 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61084B3222C34EFF00D66E53 /* CompassView.swift in Sources */,
 				61084B2222C34EC800D66E53 /* ViewController.swift in Sources */,
 				61084B2022C34EC800D66E53 /* AppDelegate.swift in Sources */,
 			);

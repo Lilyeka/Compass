@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        let compass = CompassView()
+        compass.frame = CGRect(x: 50, y: 100, width: 300, height: 300)
+        
+        view.addSubview(compass)
     }
 
 
